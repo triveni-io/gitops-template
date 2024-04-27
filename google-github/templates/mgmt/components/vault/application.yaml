@@ -25,7 +25,7 @@ spec:
               iam.gke.io/gcp-service-account: vault-<CLUSTER_NAME>@<GOOGLE_PROJECT>.iam.gserviceaccount.com
           ha:
             enabled: true
-            replicas: 3
+            replicas: 1
             config: |
               ui = true
               listener "tcp" {
